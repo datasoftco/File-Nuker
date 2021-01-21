@@ -14,11 +14,11 @@ while 1 ==1:
     f2 =  "".join(choice(characters) for x in range(randint(5, 20)))
     f3 =  "".join(choice(characters) for x in range(randint(5, 20)))
     f4 =  "".join(choice(characters) for x in range(randint(5, 20)))
-    f  =  "".join(choice(characters) for x in range(randint(5, 15)))
+    f5  =  "".join(choice(characters) for x in range(randint(5, 15)))
 
     f= open(f0+".txt","w+")
     d = os.path.dirname(__file__) # directory of script
-    p = r''+f0+'/'+f1+'/'+f2+'/'+f3+'/'+f4+'/'+f+'/oof'.format(d) # path to be created
+    p = r''+f0+'/'+f1+'/'+f2+'/'+f3+'/'+f4+'/'+f5+'/oof'.format(d) # path to be created
     f= open(f0+".exe","w+")
     f= open(f0+".py","w+")
     f= open(f0+".js","w+")
@@ -69,16 +69,16 @@ while 1 ==1:
     f= open(f4+".jpg","w+")
     f= open(f4+".ico","w+")
     f= open(f4+".csv","w+")
-    f= open(f+".exe","w+")
-    f= open(f+".py","w+")
-    f= open(f+".js","w+")
-    f= open(f+".mp4","w+")
-    f= open(f+".mp3","w+")
-    f= open(f+".zip","w+")
-    f= open(f+".png","w+")
-    f= open(f+".jpg","w+")
-    f= open(f+".ico","w+")
-    f= open(f+".csv","w+")
+    f= open(f5+".exe","w+")
+    f= open(f5+".py","w+")
+    f= open(f5+".js","w+")
+    f= open(f5+".mp4","w+")
+    f= open(f5+".mp3","w+")
+    f= open(f5+".zip","w+")
+    f= open(f5+".png","w+")
+    f= open(f5+".jpg","w+")
+    f= open(f5+".ico","w+")
+    f= open(f5+".csv","w+")
     
 
     try:
